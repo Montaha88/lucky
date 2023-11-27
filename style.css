@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(7, 73, 102);
+    font-size: 15px;
+    line-height: 150%;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1100px;   
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    background-color:lightcoral; 
+    overflow: hidden;
+
+}
+.logo{
+    float: left;
+    display: flex;
+}
+nav{
+    float: right;
+}
+
+nav ul li{
+    display:inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+    overflow: hidden;
+    background-image: url(images.jpg);
+    
+}
+main section{
+         float: left;
+         width: 75%;
+         background-color: rgb(101, 232, 101);
+         padding: 15px;
+}
+main aside{
+    float: right;
+    width: 25%;
+    background-color: rgb(128, 0, 68);
+    padding: 15px;
+}
+footer{
+    background-color: rgb(255, 0, 183);
+    text-align: center;
+    padding: 15px;
+}
